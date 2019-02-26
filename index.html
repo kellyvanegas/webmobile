@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css">
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Web APP</title>
+</head>
+<body>
+	<!-- pagina inicio -->
+	<div id="inicio" data-theme="b" data-role="page" data-tittle="Inicio">
+		<div data-role="header"><h1>Mi Primera APP Interfaz</h1></div>
+		<div data-role="content">
+			<p>Contenido APP</p>
+			<hr>
+			<a href="#contacto" data-rel="dialog" data-role="button">Contacto</a>
+			<img src="css/images/foto1.jpeg" alt="">
+		</div>
+			
+		<div data-role="footer" data-position="fixed">
+		<div data-role="navbar" >
+			<ul>
+				<li><a data-transition="flip" data-icon="star" href="#mision">Mision</a></li>
+				<li><a data-transition="pop" data-icon="plus"" href="#vision">Vision</a></li>
+				<li><a data-transition="salideup" data-icon="grid"" href="#servicios">Servicios</a></li>
+				<li><a data-transition="slidedown" data-icon="home"" href="#inicio">Inicio</a></li>
+			</ul>
+		</div>
+
+		</div>
+	</div>
+	<!-- fin pagina de inicio -->
+	<!-- Contacto inicio -->
+	<div data-role="page" id="contacto" data-title="Contacto">
+		<div data-role="header">
+			<h1>Contacto</h1>
+		</div>
+		<div data-role="content">
+			<form action="">
+				Nombre:
+				<input type="text">
+				Correo:
+				<input type="text">	
+				Comentario:
+				<textarea cols="30" rows="10"></textarea>
+				<input type="submit">
+
+			</form>
+		</div>
+		<div data-role="footer">
+			<p>Cel: 1234567891, Calle bis con 4 No se donde</p>
+			
+		</div>
+	</div>
+	<!-- Contacto final -->
+	<!-- mision inicio -->
+		<div id="mision" data-theme="b" data-role="page" data-tittle="Misión">
+			<div data-role="header"><h1>Misión</h1></div>
+			<div data-role="content">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ad, corporis esse. Animi beatae quos unde ipsam deleniti. Mollitia voluptatum animi architecto quidem, repellat dignissimos consequatur dolor explicabo repudiandae quas.
+			</div>
+				
+			<div data-role="footer" data-position="fixed">
+			<div data-role="navbar" >
+				<ul>
+					<li><a data-transition="flip" data-icon="star" href="#mision">Mision</a></li>
+					<li><a data-transition="pop" data-icon="plus"" href="#vision">Vision</a></li>
+					<li><a data-transition="salideup" data-icon="grid"" href="#servicios">Servicios</a></li>
+					<li><a data-transition="slidedown" data-icon="home"" href="#inicio">Inicio</a></li>
+				</ul>
+			</div>
+	
+			</div>
+		</div>
+	<!-- mision final -->
+	<!-- vision inicio -->
+		<div id="vision" data-theme="b" data-role="page" data-tittle="Visión">
+			<div data-role="header"><h1>Mi Primera APP Interfaz</h1></div>
+			<div data-role="content">
+				<ul data-role="list-view">
+					<li><a href="#1">p1</a></li>
+				<li><a href="#2">p2</a></li>
+				<li><a href="#3">p3</a></li>
+				<li><a href="#4">p4</a></li>
+
+					
+				</ul>
+			</div>
+				
+			<div data-role="footer" data-position="fixed">
+			<div data-role="navbar" >
+				<ul>
+					<li><a data-transition="flip" data-icon="star" href="#mision">Mision</a></li>
+					<li><a data-transition="pop" data-icon="plus"" href="#vision">Vision</a></li>
+					<li><a data-transition="salideup" data-icon="grid"" href="#servicios">Servicios</a></li>
+					<li><a data-transition="slidedown" data-icon="home"" href="#inicio">Inicio</a></li>
+				</ul>
+			</div>
+	
+			</div>
+		</div>
+	<!-- vision fin -->
+	<!-- servicios inicio -->
+		<div id="servicios" data-theme="b" data-role="page" data-tittle="Servicios">
+			<div data-role="header"><h1>Mi Primera APP Interfaz</h1></div>
+			<div data-role="content">
+				<div data-role="collapsible">
+					<h3>Servicios</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolores illo esse, aperiam officia nesciunt aspernatur quam qui fuga corporis quia fugit, modi est eius repellendus sit, impedit nam eveniet.</p>
+				</div>
+				
+			</div>
+				
+			<div data-role="footer" data-position="fixed">
+			<div data-role="navbar" >
+				<ul>
+					<li><a data-transition="flip" data-icon="star" href="#mision">Mision</a></li>
+					<li><a data-transition="pop" data-icon="plus"" href="#vision">Vision</a></li>
+					<li><a data-transition="salideup" data-icon="grid"" href="#servicios">Servicios</a></li>
+					<li><a data-transition="slidedown" data-icon="home"" href="#inicio">Inicio</a></li>
+				</ul>
+			</div>
+	
+			</div>
+		</div>
+
+	<!-- servicios fin -->
+
+	<!-- llamando los scrips -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<!-- finalizando llamado de los scrips -->
+</body>
+</html>
